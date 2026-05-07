@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+cybermind.db
+dist/
+build/
+*.spec

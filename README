@@ -1,0 +1,282 @@
+# 🛡️ CyberMind AI
+
+### *AI-Powered Threat Detection & Security Monitoring System*
+
+CyberMind AI is a **real-time AI-driven cybersecurity monitoring platform** designed to detect suspicious activities, analyze threats, and provide intelligent security insights using Machine Learning and Large Language Models (LLMs).
+
+The platform combines:
+
+* Anomaly Detection
+* Threat Analytics
+* AI-based Security Explanations
+* Real-time Monitoring
+* Persistent Alert Storage
+
+to simulate a modern **Security Operations Center (SOC)** environment.
+
+---
+
+# 🚀 Features
+
+## 🤖 AI Threat Detection
+
+* Detects suspicious activities from security logs
+* Identifies anomalies using Machine Learning
+* Generates intelligent threat severity scores
+
+---
+
+## 📊 Real-Time Monitoring Dashboard
+
+* Live security analytics
+* Auto-refreshing dashboard
+* Interactive charts & visualizations
+
+---
+
+## 🧠 AI Security Assistant
+
+* Uses local LLMs (Ollama)
+* Explains suspicious activities
+* Answers cybersecurity-related questions
+
+---
+
+## 🔍 Anomaly Detection
+
+Implements:
+
+* Isolation Forest algorithm
+* Behavioral anomaly analysis
+* Suspicious activity classification
+
+---
+
+## 🚨 Threat Alert System
+
+Detects:
+
+* Brute-force login attempts
+* Malware-like behavior
+* Suspicious data transfers
+
+---
+
+## 💾 Persistent Storage
+
+* SQLite database integration
+* Stores users and threat alerts
+* Maintains alert history
+
+---
+
+## 🔐 Authentication System
+
+* User registration & login
+* Session management
+* Multi-user support foundation
+
+---
+
+# 🏗️ System Architecture
+
+```text id="o0fxnm"
+Security Logs
+      ↓
+Feature Engineering
+      ↓
+Isolation Forest (ML)
+      ↓
+Threat Detection Engine
+      ↓
+Severity Scoring
+      ↓
+AI Threat Explanation (LLM)
+      ↓
+Dashboard + Alert System
+```
+
+---
+
+# 📁 Project Structure
+
+```bash id="k1vzhd"
+cybermind-ai/
+│
+├── app.py
+│
+├── ai/
+│   └── security_ai.py
+│
+├── auth/
+│   └── auth.py
+│
+├── database/
+│   └── db_manager.py
+│
+├── detector/
+│   ├── anomaly_detector.py
+│   └── threat_detector.py
+│
+├── parser/
+│   └── log_parser.py
+│
+├── data/
+│   └── sample_logs.csv
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```bash id="d99lqe"
+git clone https://github.com/YOUR_USERNAME/cybermind-ai.git
+cd cybermind-ai
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash id="9wxjci"
+pip install -r requirements.txt
+```
+
+---
+
+## 3️⃣ Install & Run Ollama
+
+```bash id="pq09t5"
+ollama run phi3
+```
+
+---
+
+## 4️⃣ Start Application
+
+```bash id="b76yxh"
+streamlit run app.py
+```
+
+---
+
+# 📊 Dashboard Features
+
+* 📈 Failed login analytics
+* 🦠 Malware activity monitoring
+* 📡 Suspicious data transfer tracking
+* 🚨 Real-time threat alerts
+* 🤖 AI-generated security analysis
+
+---
+
+# 🧠 Machine Learning
+
+CyberMind AI uses:
+
+* **Isolation Forest**
+  for anomaly detection on:
+* failed login attempts
+* malware scores
+* unusual data transfers
+* suspicious file access patterns
+
+---
+
+# 🤖 AI-Powered Analysis
+
+The platform integrates a local LLM using **Ollama** to:
+
+* explain threats
+* identify attack patterns
+* provide recommended actions
+* act as a cybersecurity assistant chatbot
+
+---
+
+# 💾 Database
+
+SQLite database stores:
+
+* user accounts
+* generated alerts
+* monitoring history
+
+---
+
+# 🖥️ Technologies Used
+
+| Category        | Technology       |
+| --------------- | ---------------- |
+| Frontend        | Streamlit        |
+| Backend         | Python           |
+| ML Model        | Isolation Forest |
+| AI Engine       | Ollama           |
+| Database        | SQLite           |
+| Visualization   | Plotly           |
+| Data Processing | Pandas           |
+
+---
+
+# 🔍 Example Threat Detection
+
+```text id="xev2it"
+🚨 Threat Level: CRITICAL
+
+IP Address: 192.168.1.13
+
+Failed Logins: 10
+Malware Score: 9
+Data Transfer: 300 MB
+
+Possible Attack:
+Brute-force login attempt combined with suspicious malware activity.
+```
+
+---
+
+# 🚀 Future Improvements
+
+* Live network packet analysis
+* Real log ingestion from SIEM systems
+* Email & SMS alerting
+* Role-based access control
+* Cloud deployment
+* Threat intelligence integration
+* Docker support
+
+---
+
+# 👨‍💻 Author
+
+**Anirodh Padhy**
+
+---
+
+# ⭐ Support
+
+If you found this project useful:
+
+* ⭐ Star the repository
+* 🍴 Fork it
+* 📢 Share it
+
+---
+
+# 🏁 Conclusion
+
+CyberMind AI demonstrates how modern cybersecurity platforms combine:
+
+* Machine Learning
+* AI-powered analysis
+* Real-time monitoring
+* Threat intelligence
+* Interactive dashboards
+
+to build intelligent security monitoring systems 🚀
